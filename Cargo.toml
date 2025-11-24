@@ -1,0 +1,12 @@
+[package]
+name = "printer_scanner"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
+ipnet = "2.9"
+colored = "3"
+futures = "0.3"
+snmp2 = "0.4"
